@@ -1,0 +1,52 @@
+ *{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+font-size:62.5%;
+scroll-behavior:smoth:
+}
+
+body{
+}
+
+h1,h2{
+font-family:
+color:
+}
+ 
+h3{
+font-family:
+color:
+line-height:
+}
+
+:active,
+:hover,
+:focus{
+outline: 0 !important;
+outline-offset: 0;
+}
+a,
+a:hover{
+    text-decoration: none;
+cursor:pointer;
+}
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+li{
+list-style:none;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    margin-bottom: 1rem;
+    color: #292929;
+    
+}

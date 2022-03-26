@@ -1,0 +1,415 @@
+ /* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    html{
+        font-size: 58%;
+    }
+    .navbar-nav {
+        background: #413d4b;
+    }
+    .nav-link {
+        padding: .5rem 2.0rem !important;
+        text-align: center;
+    }
+    .navbar-toggler {
+        background-color: #fff;
+         }
+       /* banner text  */
+     .banner-text {
+      padding-top: 13rem;
+      padding-bottom: 13rem;
+      }
+      .banner-text h2 {
+        font-size: 2rem;
+    }
+    .banner-text p {
+        padding: 4.5rem 2rem 4rem 2rem;
+    }
+    .banner-slider .slick-dots li button {
+        color: transparent;
+        width: 1rem;
+        height: 1rem;
+        line-height: 1.3rem;
+       
+    }
+    /* about  */
+    #about-part{
+        padding: 4rem 0;
+    }
+    .about-text h2 {
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .about-text P {
+        padding-bottom: 1rem !important;
+    }
+    .about-text a {
+        width: 100%;
+    }
+    .video-icon {
+        padding: 7rem 0;
+       
+    }
+    #service-part {
+        padding: 4.5rem 0;
+    }
+    .service-head h2 {
+        font-size: 2rem;
+
+    }
+    .service-head p{
+        font-size: 1.324rem;
+    }
+    .service-box-responsive {
+        padding-top: 5rem !important;
+    }
+    .service-box {
+        padding-top: 0;
+        padding-bottom: 2.5rem;
+    }
+    .service-box p {
+        padding: 0rem 2rem;
+    }
+    #team {
+        padding: 5rem 0;
+    }
+    .team-top-text h2 {
+        font-size: 2rem;
+    }
+    .team-top-text p {
+        font-size: 1.324rem;
+    }
+    .team-text-bottom a {
+
+        display: inline-block;
+        width: 100%;
+    }
+    .team-slider {
+        padding: 2.5rem 0;
+    }
+
+    .imagesecpadding {
+        padding: 4rem 0;
+    }
+    #project{
+        padding: 4rem 0;
+    }
+    .project-top-right p {
+        font-size: 1.21rem;
+    }
+    .project-bottom a {
+        width: 97%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        text-align: center;
+    }
+    #team2 {
+        padding: 5rem 0;
+    }
+    .team2-slider-text p {
+        font-size: 1.4rem;
+        padding: 0 1rem;
+        padding-bottom: 3rem;
+    }
+    .team2-slider-text h5 {
+        padding-bottom: 3.5rem;
+    }
+   
+    .team2-left {
+        /* top: 79% !important;
+        left: 2.1rem;    */
+        display: none !important;        
+    }
+    .team2-right {
+        /* top: 80% !important;
+        right: 3.2rem; */
+        display: none !important;        
+
+ }
+ .slick-slide {
+
+	width: 101px;
+}
+ #contact, #footer{
+   padding: 4rem 0;
+  }
+        .contact-left a {
+            width: 100%;
+            text-align: center;
+        }
+
+        .contact-left h3, .contact-right h3 {
+            padding-bottom: 1.7rem;
+            padding-top: 3rem;
+        }
+        .footer-top-left img {
+            padding-bottom: 1rem;
+        }
+        .fooer-top-middle h4 {
+            padding-bottom: 1rem;
+        }
+        .martop {
+            display: inline-block;
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+
+        .footer-top-right ul li {
+            margin-top: 1.4rem;
+            margin-right: .2rem;
+        }
+        .footer-bottom-left ul li {
+            margin-right: 1rem;
+            text-align: center;
+        }
+        .footer-bottom-right p {
+            margin-bottom: 1rem;            
+            text-align: center;
+        }
+        .footer-bottom-left {
+            text-align: center;
+            padding-bottom: 0rem;
+        }
+        .fooer-top-middle {
+            text-align: center;
+        }
+
+        .footer-top-right {
+            /* margin: 0 auto !important; */
+            text-align: center;
+        }
+
+        .footer-top-left p {
+
+            text-align: center;
+            padding: 0px 1rem 0px 0px;
+        }
+        
+
+ }
+
+ /* Small devices (landscape phones, less than 768px) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    html{
+        font-size: 58%;
+    }
+    .navbar-nav {
+        background: #413d4b;
+    }
+    .nav-link {
+        padding: 1rem 2.0rem !important;
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        background-color: #fff;
+         }
+         /* banner text  */
+         .banner-text {
+            padding-top: 13rem;
+            padding-bottom: 13rem;
+        }
+        /* banner 
+         */
+
+         .banner-text p {
+            padding: 5.5rem 7.2rem 5.0rem 7.2rem;
+        }
+        /* about  */
+        #about-part{
+            padding: 4rem 0;
+        }
+        .about-text h2 {
+            text-align: center;
+            padding-top: 2rem;
+        }
+        .about-text P {
+            padding-bottom: 1rem !important;
+        }
+        .about-text a {
+            width: 100%;
+        }
+        .video-icon {
+            padding: 10rem 0;
+           
+        }
+        #service-part {
+            padding: 5rem 0;
+        }
+        .service-box-responsive {
+            padding-top: 5rem !important;
+        }
+        .service-box {
+            padding-top: 0;
+            padding-bottom: 4rem;
+        }
+        #team {
+            padding: 5.5rem 0;
+        }
+        .team-text-bottom a {
+
+            display: inline-block;
+            width: 100%;
+        }
+        .team-slider {
+            padding: 3rem 0;
+        }
+        #project{
+            padding: 5rem 0;
+        }
+        .imagesecpadding {
+            padding: 4.5rem 0;
+        }
+        .project-bottom a {
+            width: 97%;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            text-align: center;
+        }
+        #team2 {
+            padding: 5rem 0;
+        }
+        .team2-slider-text p {
+            padding: 0 4rem;
+            padding-bottom: 3rem;
+        }
+        .team2-slider-text h5 {
+            padding-bottom: 3.5rem;
+        }
+       
+        .team2-left {
+            top: 79% !important;
+            left: 2.1rem;           
+        }
+        .team2-right {
+            top: 80% !important;
+            right: 3.2rem;
+            }
+            #contact, #footer{
+                padding: 4rem 0;
+              }
+            .contact-left a {
+                width: 100%;
+                text-align: center;
+            }
+
+            .contact-left h3, .contact-right h3 {
+                padding-bottom: 1.7rem;
+                padding-top: 3rem;
+            }
+            .footer-top-left img {
+                padding-bottom: 1rem;
+            }
+            .fooer-top-middle h4 {
+                padding-bottom: 1rem;
+            }
+            .martop{
+                margin-top: 1rem;
+            }
+            .footer-top-right ul li {
+          
+                margin-top: 1.4rem;
+            }
+            .footer-bottom-left ul li {
+                margin-right: 1rem;
+            }
+ }
+
+ /* Medium devices (tablets, less than 992px) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-nav {
+        background: #413d4b;
+    }
+    .nav-link {
+        padding: 1rem 2.0rem !important;
+        text-align: center;
+    }
+    .navbar-toggler {
+        background-color: #fff;
+         }
+
+         /* banner text  */
+         .banner-text {
+            padding-top: 13rem;
+            padding-bottom: 13rem;
+        }
+        .about-text h2 {
+            text-align: center;
+            padding-top: 3rem;
+        }
+        .about-text P {
+            padding-bottom: 1.5rem !important;
+        }
+        .about-text a {
+            width: 100%;
+            text-align: center;
+        }
+        .video-icon {
+            padding: 10rem 0;
+        }
+
+        /* service  */
+        .service-box {
+            padding: 2rem 0;
+        }
+
+        /* team  */
+        .team-text-bottom a, .project-bottom a{
+            display: block;
+            width: 100%;
+        }
+        .project-bottom a {
+            display: inline-block;
+            width: 98%;
+            margin-left: 1rem;
+            margin-right: 1rem !important;
+        }
+
+        .team2-left {
+            top: 77% !important;
+            left: 9.1rem;
+            }
+            .team2-right {
+                top: 78% !important;
+                right: 11.2rem;
+                
+            }
+            .contact-left a {
+                width: 100%;
+                text-align: center;
+            }
+           .contact-right h3 {
+            text-align: center;
+                padding-top: 3rem;
+            }
+            .footer-top-left p {
+                font-size: 1.3rem;
+                padding: 0px 2rem 0px 0px;
+            }
+            .footer-top-right ul li {
+
+                margin-right: 0;
+                
+            }
+            .fooer-top-middle p {
+                font-size: 1.3rem;
+               
+            }
+            .martop{
+                margin-top: 4rem;
+
+            }
+
+ }
+
+ /* Large devices (desktops, less than 1200px) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+
+  }
+
+ /* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { }
+
+ /* XX-Large devices (larger desktops) */
+ /* No media query since the xxl breakpoint has no upper bound on its width */
